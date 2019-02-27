@@ -6,7 +6,7 @@ int main() {
 	Fraction d  = a + b;	// use friend
 	Fraction e  = a - b;	// use member operator
 	Fraction f = -a;			// use friend
-	Fraction g = -b;			// use member operator
+	Fraction g = +b;			// use member operator (note, this one just returns b!)
 	Fraction h = a.add(b);
 	cout << d << '\n';
 	cout << e << '\n';
